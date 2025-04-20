@@ -2,7 +2,7 @@ export const AnimatedIntro = () => {
   const words = ['Hi', 'there', '👋,', 'welcome', 'to', 'my', 'portfolio!'];
 
   return (
-    <p className="pt-10 text-2xl md:text-4xl mb-6 flex flex-wrap justify-center gap-3">
+    <p className="pt-10 text-black text-2xl md:text-4xl mb-6 flex flex-wrap justify-center gap-3">
       {words.map((word, index) => (
         <span
           key={index}
