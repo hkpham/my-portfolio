@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const AnimatedIntro = () => {
   const words = ['Hi', 'there', '👋,', 'welcome', 'to', 'my', 'portfolio!'];
 
